@@ -5,6 +5,7 @@ import { resumeRouter } from "./routes/resume";
 import { interviewRouter } from "./routes/interview";
 import { candidateRouter } from "./routes/candidate";
 import { demoRouter } from "./routes/demo";
+import { fileURLToPath } from 'url';
 
 export function createServer() {
   const app = express();
@@ -21,9 +22,13 @@ export function createServer() {
   return app;
 }
 
-const isMainModule = process.argv[1] === __filename;
-if (isMainModule) {
-  const port = process.env.PORT;
+const isMainModule = (metaUrl: string) => {
+  const modulePath = fileURLToPath(metaUrl);
+  return process.argv[1] === modulePath;
+};
+
+if (isMainModule(import.meta.url)) {
+  const port = process.env.PORT || 3001;
   const app = createServer();
   app.listen(port, () => console.log(`Server listening on ${port}`));
 }
