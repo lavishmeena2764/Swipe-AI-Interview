@@ -22,10 +22,11 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.9.0",
+    "@upstash/redis": "^1.35.4",
     "cloudinary": "^2.7.0",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
-    "cors": "^2.8.5",
     "mammoth": "^1.11.0",
     "multer": "^2.0.2",
     "node-fetch": "^3.3.2",
