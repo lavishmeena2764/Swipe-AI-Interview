@@ -1,0 +1,531 @@
+{
+  "sessions": {
+    "1e8e70bb-8f07-4a12-b15e-01c3fa01e3e4": {
+      "id": "1e8e70bb-8f07-4a12-b15e-01c3fa01e3e4",
+      "candidate": {
+        "name": "Lavish Meena",
+        "email": "lavishmeena2764@gmail.com",
+        "phone": "+91-9352893936"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759034452/interview_resumes/1759034478606-Lavish_Meena.pdf",
+      "resumeText": "Lavish Meena\r\nÓ+91-9352893936Rlavishmeena2764@gmail.com°Lavish MeenaLavishmeena2764\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                          July 2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.91               Prayagraj, Uttar Pradesh\r\nEXPERIENCE\r\nBindisa AgritechWMay 2025 – July 2025\r\nBackend Developer InternRemote\r\n•Engineered backend services for a smart-agriculture platform integrating soil analysis, weather insights, andAI-driven recommendations.\r\n•Optimized modular API architecture, reducing average response latency by 40% and improving workflowefficiency by 20%.\r\nGlobal PathfindersWJune 2024 – July 2024\r\nWeb Developer InternRemote\r\n•Built and deployed the official Global PathFinders website using the MERN stack, increasing user engagementby 50%.\r\n•Managed deployment on a KVM2 VPS server, achieving 99.9% uptime and improving site load speed by 40%.\r\nPROJECTS\r\nSimulateX| Github| Java, JavaFX, JavaSwing                                                               Jan 2025 - May 2025\r\n•Developed an EDA (Electronic Design Automation) simulation tool for circuit design and analysis, replicatingcore features of industry tools like LTSpice.\r\n•Designed a modular, interactive GUI that improved usability and reduced circuit setup time by 40%, boostingproductivity for engineering students and researchers.\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Adobe GenSolve Hackathon 2024 – Ranked AIR 53 among 10,000+ participants nationwide,placing in top 5 percentile.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•GeekCamp 2023 – Ranked among the Top 3 performers in a multi-disciplinary development contest atIIITA.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•3 star at Codechef  (maximum rating of 1610) with a best global rank of 118\r\n•Mentored participants in SheHacks, MadWeb, and III 4.0, fostering technical growth and projectexecution skills.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, Next.js, Flask, TailwindCSS, MongoDB, MySQL,\r\nFirebase, GitHub, Postman\r\nRelevant Coursework:  Data Structures and Algorithms, Operating System, Database Management System,\r\nObject Oriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGoogle Developer Student Clubs                                                                                  Sept 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Conducted various hands-on web development workshop attended by 100+ students.Alumni Sangam Students’ Interaction Cell                                                                Aug 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Contributed to the organization of Silver Jubilee GAM 2024, GAM’23, GVAM’23 attracting 1000+ alumni.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [
+        {
+          "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+          "text": "What is the primary purpose of ExpressJS in a Node.js application?",
+          "difficulty": "easy",
+          "time_seconds": 20,
+          "maxScore": 10
+        },
+        {
+          "id": "b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+          "text": "What is the role of Firebase in your Medify.AI project?",
+          "difficulty": "easy",
+          "time_seconds": 20,
+          "maxScore": 10
+        },
+        {
+          "id": "c3d4e5f6-a7b8-9012-3456-7890abcdef01",
+          "text": "Explain how you managed state in your ReactJS applications like Medify.AI or EasyExit.",
+          "difficulty": "medium",
+          "time_seconds": 60,
+          "maxScore": 10
+        },
+        {
+          "id": "d4e5f6a7-b8c9-0123-4567-890abcdef012",
+          "text": "How did you optimize the modular API architecture to reduce response latency by 40% at Bindisa Agritech?",
+          "difficulty": "medium",
+          "time_seconds": 60,
+          "maxScore": 10
+        },
+        {
+          "id": "e5f6a7b8-c9d0-1234-5678-90abcdef0123",
+          "text": "In your EasyExit project, describe a potential challenge with MongoDB schema design for gate-pass management and how you would address it.",
+          "difficulty": "hard",
+          "time_seconds": 120,
+          "maxScore": 10
+        },
+        {
+          "id": "f6a7b8c9-d0e1-2345-6789-0abcdef01234",
+          "text": "In your Global Pathfinders project, you improved site load speed by 40%. Describe specific techniques you implemented on the MERN stack to achieve this optimization.",
+          "difficulty": "hard",
+          "time_seconds": 120,
+          "maxScore": 10
+        }
+      ],
+      "answers": [
+        {
+          "questionId": "d4e5f6a7-b8c9-0123-4567-890abcdef012",
+          "questionText": "How did you optimize the modular API architecture to reduce response latency by 40% at Bindisa Agritech?",
+          "answer": "we used several api optimization techniques like cdn and caching \nwe used redis for instant caching and cdn to load static files like images and videos as fast as possible.",
+          "score": 0,
+          "createdAt": "2025-09-28T04:43:49.589Z"
+        },
+        {
+          "questionId": "e5f6a7b8-c9d0-1234-5678-90abcdef0123",
+          "questionText": "In your EasyExit project, describe a potential challenge with MongoDB schema design for gate-pass management and how you would address it.",
+          "answer": "one potential challenge i faced was on how to make the emails with enrollment numbers as both are supposed to be unique\nso i solved this challenged by using the college provided email of the students\nthe college provided email is nothing but the enrollment number + @iiita.ac.in for every student in our college without exception\nso in this way i handled this schema design challenge.",
+          "score": 0,
+          "createdAt": "2025-09-28T04:45:42.484Z"
+        },
+        {
+          "questionId": "f6a7b8c9-d0e1-2345-6789-0abcdef01234",
+          "questionText": "In your Global Pathfinders project, you improved site load speed by 40%. Describe specific techniques you implemented on the MERN stack to achieve this optimization.",
+          "answer": "as i mentioned earlier also i deployed several techniques to make my site load faster and smoother\nsome of them are using CDN and caching\ni used to cdn to load static files like images and videos which made the site speed faster.\nthen for db queries i used caching to retieve most used information faster\nthen i also deployed indexing in database to improve the query speed and fetch details faster",
+          "score": 0,
+          "createdAt": "2025-09-28T04:47:35.623Z"
+        }
+      ],
+      "createdAt": "2025-09-28T04:41:24.654Z",
+      "status": "completed",
+      "finalScore": 47,
+      "summary": "While the candidate's resume showcases impressive achievements and a strong competitive programming background, their interview answers were consistently generic, lacking the depth and specific implementation details required to validate the significant optimization claims, indicating a surface-level understanding."
+    },
+    "0ab924bf-31f6-4c91-a1bc-76af1fb6237f": {
+      "id": "0ab924bf-31f6-4c91-a1bc-76af1fb6237f",
+      "candidate": {
+        "name": "Oshanki Priya",
+        "email": "Roshankipriya1@gmail.com",
+        "phone": "+91-7068080312"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759034920/interview_resumes/1759034917471-Oshanki_Resume.pdf",
+      "resumeText": "Oshanki Priya\r\nÓ+91-7068080312Roshankipriya1@gmail.com°Oshanki PriyaOshankiii12\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                                  2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.78               Prayagraj, Uttar Pradesh\r\nCity Montessori School2019 – 2021\r\nClass 12th, ISC - Percentage: 98.50%                                              Lucknow, Uttar Pradesh\r\nClass 10th, ICSE - Percentage: 94.25%\r\nEXPERIENCE\r\nSalesforceWMay 2025 – July 2025\r\nAMTS Intern - GoLang, DynamoDB, ReactJS, Amazon S3                                  Hyderabad, India\r\n•Implemented a Golang-based microservice for asynchronous bulk entitlement metadata ingestion andvalidation, supporting 15,000+ entitlements with near-zero downtime.\r\n•Architected the solution with AWS S3 for secure object storage and DynamoDB for low-latency transactionaloperations, significantly improving operational efficiency for enterprise customers.\r\nGlobal PathfindersWOct 2023 – Apr 2024\r\nSocial Media & Design HeadRemote\r\n•Increased social media engagement by 30% through strategic content creation.\r\n•Conducted a comprehensive content audit, leading to a 25% reduction in bounce rate.\r\nPROJECTS\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Selected among top 100 students nationwide to attend the Salesforce WIT Summit 2024, Hyderabad.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•OpenCode 2023 – Served as a Mentor and Organizer, guiding participants and coordinating eventexecution for IIITA’s flagship open-source development program.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•4 star at Codechef  (maximum rating of 1829) with a best global rank of 20\r\n•Solved 300+ coding problems on Leetcode, strengthening data structures and algorithms skills.\r\n•M.A.D. Hackathon 2023 – Achieved 2nd position in IIITA’s annual in-house hackathon focused on rapidprototyping and creative problem-solving.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, TailwindCSS, MongoDB, MySQL, GitHub, Postman\r\nCoursework:  Data Structures and Algorithms, Operating System, Database Management System, Object\r\nOriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGeekHaven (Technical Society of IIITA) - FOSS Wing Member                      Aug 2023 – Sept 2024\r\n•Built the official website of Opencode’23 and mentored 50+ contributors in Opencode’23\r\nPrayaas (Non-Profitable Organization) - Volunteer                                                 Nov 2022 – Present\r\n•Volunteered in a student-led initiative, teaching underprivileged kids and organizing 10+ welfare activities topromote education and social awareness.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [
+        {
+          "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+          "text": "What was the primary purpose of Amazon S3 in your Salesforce internship?",
+          "difficulty": "easy",
+          "time_seconds": 20,
+          "maxScore": 10
+        },
+        {
+          "id": "b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+          "text": "What is the main benefit of using MongoDB for your EasyExit project?",
+          "difficulty": "easy",
+          "time_seconds": 20,
+          "maxScore": 10
+        },
+        {
+          "id": "c3d4e5f6-a7b8-9012-3456-7890abcdef01",
+          "text": "How did you ensure near-zero downtime for the Golang microservice at Salesforce, supporting 15,000+ entitlements?",
+          "difficulty": "medium",
+          "time_seconds": 60,
+          "maxScore": 10
+        },
+        {
+          "id": "d4e5f6a7-b8c9-0123-4567-890abcdef012",
+          "text": "Explain how OTP-based verification was implemented in your EasyExit gate-pass system to enable instant approval.",
+          "difficulty": "medium",
+          "time_seconds": 60,
+          "maxScore": 10
+        },
+        {
+          "id": "e5f6a7b8-c9d0-1234-5678-90abcdef0123",
+          "text": "In your Salesforce role, describe the architectural considerations and trade-offs when choosing DynamoDB for low-latency transactional operations over a relational database.",
+          "difficulty": "hard",
+          "time_seconds": 120,
+          "maxScore": 10
+        },
+        {
+          "id": "f6a7b8c9-d0e1-2345-6789-0abcdef01234",
+          "text": "For your Medify.AI project, how would you optimize the Flask backend and ML model inference for faster disease prediction with increased patient data and concurrent users?",
+          "difficulty": "hard",
+          "time_seconds": 120,
+          "maxScore": 10
+        }
+      ],
+      "answers": [
+        {
+          "questionId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+          "questionText": "What was the primary purpose of Amazon S3 in your Salesforce internship?",
+          "answer": "dfbknl\nl",
+          "score": 0,
+          "createdAt": "2025-09-28T04:49:47.850Z"
+        },
+        {
+          "questionId": "b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+          "questionText": "What is the main benefit of using MongoDB for your EasyExit project?",
+          "answer": "jksfnewlwrjfwkem;",
+          "score": 0,
+          "createdAt": "2025-09-28T04:49:50.362Z"
+        },
+        {
+          "questionId": "c3d4e5f6-a7b8-9012-3456-7890abcdef01",
+          "questionText": "How did you ensure near-zero downtime for the Golang microservice at Salesforce, supporting 15,000+ entitlements?",
+          "answer": "fnvbergwklfmwek",
+          "score": 0,
+          "createdAt": "2025-09-28T04:49:53.011Z"
+        },
+        {
+          "questionId": "d4e5f6a7-b8c9-0123-4567-890abcdef012",
+          "questionText": "Explain how OTP-based verification was implemented in your EasyExit gate-pass system to enable instant approval.",
+          "answer": "fjrwjgwilfwkdkl",
+          "score": 0,
+          "createdAt": "2025-09-28T04:49:56.589Z"
+        },
+        {
+          "questionId": "e5f6a7b8-c9d0-1234-5678-90abcdef0123",
+          "questionText": "In your Salesforce role, describe the architectural considerations and trade-offs when choosing DynamoDB for low-latency transactional operations over a relational database.",
+          "answer": "dffgernglrnfk",
+          "score": 0,
+          "createdAt": "2025-09-28T04:50:00.649Z"
+        },
+        {
+          "questionId": "f6a7b8c9-d0e1-2345-6789-0abcdef01234",
+          "questionText": "For your Medify.AI project, how would you optimize the Flask backend and ML model inference for faster disease prediction with increased patient data and concurrent users?",
+          "answer": "fdvfnglflkr",
+          "score": 0,
+          "createdAt": "2025-09-28T04:50:04.145Z"
+        }
+      ],
+      "createdAt": "2025-09-28T04:48:44.650Z",
+      "status": "completed",
+      "finalScore": 0,
+      "summary": "The candidate provided no coherent answers to any of the interview questions, making it impossible to evaluate their technical knowledge or reasoning skills, despite a strong resume."
+    },
+    "7a0279a9-7348-455d-81d4-5bec317752bc": {
+      "id": "7a0279a9-7348-455d-81d4-5bec317752bc",
+      "candidate": {
+        "name": "Lavish Meena",
+        "email": "lavishmeena2764@gmail.com",
+        "phone": "+91-9352893936"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759035400/interview_resumes/1759035397724-Lavish_Meena.pdf",
+      "resumeText": "Lavish Meena\r\nÓ+91-9352893936Rlavishmeena2764@gmail.com°Lavish MeenaLavishmeena2764\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                          July 2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.91               Prayagraj, Uttar Pradesh\r\nEXPERIENCE\r\nBindisa AgritechWMay 2025 – July 2025\r\nBackend Developer InternRemote\r\n•Engineered backend services for a smart-agriculture platform integrating soil analysis, weather insights, andAI-driven recommendations.\r\n•Optimized modular API architecture, reducing average response latency by 40% and improving workflowefficiency by 20%.\r\nGlobal PathfindersWJune 2024 – July 2024\r\nWeb Developer InternRemote\r\n•Built and deployed the official Global PathFinders website using the MERN stack, increasing user engagementby 50%.\r\n•Managed deployment on a KVM2 VPS server, achieving 99.9% uptime and improving site load speed by 40%.\r\nPROJECTS\r\nSimulateX| Github| Java, JavaFX, JavaSwing                                                               Jan 2025 - May 2025\r\n•Developed an EDA (Electronic Design Automation) simulation tool for circuit design and analysis, replicatingcore features of industry tools like LTSpice.\r\n•Designed a modular, interactive GUI that improved usability and reduced circuit setup time by 40%, boostingproductivity for engineering students and researchers.\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Adobe GenSolve Hackathon 2024 – Ranked AIR 53 among 10,000+ participants nationwide,placing in top 5 percentile.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•GeekCamp 2023 – Ranked among the Top 3 performers in a multi-disciplinary development contest atIIITA.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•3 star at Codechef  (maximum rating of 1610) with a best global rank of 118\r\n•Mentored participants in SheHacks, MadWeb, and III 4.0, fostering technical growth and projectexecution skills.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, Next.js, Flask, TailwindCSS, MongoDB, MySQL,\r\nFirebase, GitHub, Postman\r\nRelevant Coursework:  Data Structures and Algorithms, Operating System, Database Management System,\r\nObject Oriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGoogle Developer Student Clubs                                                                                  Sept 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Conducted various hands-on web development workshop attended by 100+ students.Alumni Sangam Students’ Interaction Cell                                                                Aug 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Contributed to the organization of Silver Jubilee GAM 2024, GAM’23, GVAM’23 attracting 1000+ alumni.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [
+        {
+          "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+          "text": "What was the primary reason for choosing MongoDB for your EasyExit project?",
+          "difficulty": "easy",
+          "time_seconds": 20,
+          "maxScore": 10
+        },
+        {
+          "id": "b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+          "text": "How did you optimize the modular API architecture in your Bindisa Agritech role to achieve a 40% latency reduction?",
+          "difficulty": "medium",
+          "time_seconds": 60,
+          "maxScore": 10
+        },
+        {
+          "id": "c3d4e5f6-a7b8-9012-3456-7890abcdef01",
+          "text": "You deployed the Global Pathfinders website on a KVM2 VPS. Describe the key steps you took to achieve 99.9% uptime and improve site load speed by 40%.",
+          "difficulty": "hard",
+          "time_seconds": 120,
+          "maxScore": 10
+        },
+        {
+          "id": "d4e5f6a7-b8c9-0123-4567-890abcdef012",
+          "text": "What specific role did Firebase play in the Medify.AI healthcare diagnostic platform?",
+          "difficulty": "easy",
+          "time_seconds": 20,
+          "maxScore": 10
+        },
+        {
+          "id": "e5f6a7b8-c9d0-1234-5678-90abcdef0123",
+          "text": "Explain the technical flow for OTP-based verification in your EasyExit project, detailing the interaction between SpringBoot and ReactJS.",
+          "difficulty": "medium",
+          "time_seconds": 60,
+          "maxScore": 10
+        },
+        {
+          "id": "f6a7b8c9-d0e1-2345-6789-0abcdef01234",
+          "text": "Given your experience with both ReactJS and Next.js, describe a scenario where you would specifically choose Next.js over a standard React application for a new full-stack project, justifying your architectural decision.",
+          "difficulty": "hard",
+          "time_seconds": 120,
+          "maxScore": 10
+        }
+      ],
+      "answers": [
+        {
+          "questionId": "c3d4e5f6-a7b8-9012-3456-7890abcdef01",
+          "questionText": "You deployed the Global Pathfinders website on a KVM2 VPS. Describe the key steps you took to achieve 99.9% uptime and improve site load speed by 40%.",
+          "answer": "to achieve 99.9% uptime i just simply designed modular rest apis and other was taken care by the vps server which ensures uptime of 99.9% paired along with nginx\ni improved site speed by caching the static files such as images and videos in the browser or fetching them using a cdn helped improve site loading speed a lot\nthen i improved apis by the help of technizues like caching and db indxing etc.",
+          "score": 0,
+          "createdAt": "2025-09-28T05:00:12.137Z"
+        },
+        {
+          "questionId": "e5f6a7b8-c9d0-1234-5678-90abcdef0123",
+          "questionText": "Explain the technical flow for OTP-based verification in your EasyExit project, detailing the interaction between SpringBoot and ReactJS.",
+          "answer": "so basically when the students request an outpass using react frontend an api call is made to backend and the outpass is added to waitlist on the wardens interface now as soon as they accept it an otp is sent over mail to student ",
+          "score": 0,
+          "createdAt": "2025-09-28T05:01:31.679Z"
+        }
+      ],
+      "createdAt": "2025-09-28T04:56:44.160Z",
+      "status": "completed",
+      "finalScore": 45,
+      "summary": "The candidate presents a strong resume with impressive competitive programming achievements and a broad skill set. However, the interview revealed a significant lack of practical depth and understanding in explaining their claimed experience, particularly regarding application uptime and detailed technical flows for features like OTP verification, suggesting surface-level knowledge rather than hands-on expertise."
+    },
+    "060a2a96-2068-46e5-8dc0-8b05b0ba621d": {
+      "id": "060a2a96-2068-46e5-8dc0-8b05b0ba621d",
+      "candidate": {
+        "name": "Lavish Meena",
+        "email": "lavishmeena2764@gmail.com",
+        "phone": "+91-9352893936"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759035953/interview_resumes/1759035948467-Lavish_Meena.pdf",
+      "resumeText": "Lavish Meena\r\nÓ+91-9352893936Rlavishmeena2764@gmail.com°Lavish MeenaLavishmeena2764\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                          July 2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.91               Prayagraj, Uttar Pradesh\r\nEXPERIENCE\r\nBindisa AgritechWMay 2025 – July 2025\r\nBackend Developer InternRemote\r\n•Engineered backend services for a smart-agriculture platform integrating soil analysis, weather insights, andAI-driven recommendations.\r\n•Optimized modular API architecture, reducing average response latency by 40% and improving workflowefficiency by 20%.\r\nGlobal PathfindersWJune 2024 – July 2024\r\nWeb Developer InternRemote\r\n•Built and deployed the official Global PathFinders website using the MERN stack, increasing user engagementby 50%.\r\n•Managed deployment on a KVM2 VPS server, achieving 99.9% uptime and improving site load speed by 40%.\r\nPROJECTS\r\nSimulateX| Github| Java, JavaFX, JavaSwing                                                               Jan 2025 - May 2025\r\n•Developed an EDA (Electronic Design Automation) simulation tool for circuit design and analysis, replicatingcore features of industry tools like LTSpice.\r\n•Designed a modular, interactive GUI that improved usability and reduced circuit setup time by 40%, boostingproductivity for engineering students and researchers.\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Adobe GenSolve Hackathon 2024 – Ranked AIR 53 among 10,000+ participants nationwide,placing in top 5 percentile.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•GeekCamp 2023 – Ranked among the Top 3 performers in a multi-disciplinary development contest atIIITA.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•3 star at Codechef  (maximum rating of 1610) with a best global rank of 118\r\n•Mentored participants in SheHacks, MadWeb, and III 4.0, fostering technical growth and projectexecution skills.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, Next.js, Flask, TailwindCSS, MongoDB, MySQL,\r\nFirebase, GitHub, Postman\r\nRelevant Coursework:  Data Structures and Algorithms, Operating System, Database Management System,\r\nObject Oriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGoogle Developer Student Clubs                                                                                  Sept 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Conducted various hands-on web development workshop attended by 100+ students.Alumni Sangam Students’ Interaction Cell                                                                Aug 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Contributed to the organization of Silver Jubilee GAM 2024, GAM’23, GVAM’23 attracting 1000+ alumni.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [],
+      "answers": [],
+      "createdAt": "2025-09-28T05:06:00.888Z",
+      "status": "uploaded"
+    },
+    "da9ef6c2-2e18-432f-a0be-54d36a4275fc": {
+      "id": "da9ef6c2-2e18-432f-a0be-54d36a4275fc",
+      "candidate": {
+        "name": "Lavish Meena",
+        "email": "lavishmeena2764@gmail.com",
+        "phone": "+91-9352893936"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759036600/interview_resumes/1759036598405-Lavish_Meena.pdf",
+      "resumeText": "Lavish Meena\r\nÓ+91-9352893936Rlavishmeena2764@gmail.com°Lavish MeenaLavishmeena2764\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                          July 2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.91               Prayagraj, Uttar Pradesh\r\nEXPERIENCE\r\nBindisa AgritechWMay 2025 – July 2025\r\nBackend Developer InternRemote\r\n•Engineered backend services for a smart-agriculture platform integrating soil analysis, weather insights, andAI-driven recommendations.\r\n•Optimized modular API architecture, reducing average response latency by 40% and improving workflowefficiency by 20%.\r\nGlobal PathfindersWJune 2024 – July 2024\r\nWeb Developer InternRemote\r\n•Built and deployed the official Global PathFinders website using the MERN stack, increasing user engagementby 50%.\r\n•Managed deployment on a KVM2 VPS server, achieving 99.9% uptime and improving site load speed by 40%.\r\nPROJECTS\r\nSimulateX| Github| Java, JavaFX, JavaSwing                                                               Jan 2025 - May 2025\r\n•Developed an EDA (Electronic Design Automation) simulation tool for circuit design and analysis, replicatingcore features of industry tools like LTSpice.\r\n•Designed a modular, interactive GUI that improved usability and reduced circuit setup time by 40%, boostingproductivity for engineering students and researchers.\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Adobe GenSolve Hackathon 2024 – Ranked AIR 53 among 10,000+ participants nationwide,placing in top 5 percentile.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•GeekCamp 2023 – Ranked among the Top 3 performers in a multi-disciplinary development contest atIIITA.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•3 star at Codechef  (maximum rating of 1610) with a best global rank of 118\r\n•Mentored participants in SheHacks, MadWeb, and III 4.0, fostering technical growth and projectexecution skills.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, Next.js, Flask, TailwindCSS, MongoDB, MySQL,\r\nFirebase, GitHub, Postman\r\nRelevant Coursework:  Data Structures and Algorithms, Operating System, Database Management System,\r\nObject Oriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGoogle Developer Student Clubs                                                                                  Sept 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Conducted various hands-on web development workshop attended by 100+ students.Alumni Sangam Students’ Interaction Cell                                                                Aug 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Contributed to the organization of Silver Jubilee GAM 2024, GAM’23, GVAM’23 attracting 1000+ alumni.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [],
+      "answers": [],
+      "createdAt": "2025-09-28T05:16:45.916Z",
+      "status": "uploaded"
+    },
+    "c89b529f-a842-474b-b951-65083bbb8f42": {
+      "id": "c89b529f-a842-474b-b951-65083bbb8f42",
+      "candidate": {
+        "name": "Lavish Meena",
+        "email": "lavishmeena2764@gmail.com",
+        "phone": "+91-9352893936"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759036835/interview_resumes/1759036832052-Lavish_Meena.pdf",
+      "resumeText": "Lavish Meena\r\nÓ+91-9352893936Rlavishmeena2764@gmail.com°Lavish MeenaLavishmeena2764\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                          July 2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.91               Prayagraj, Uttar Pradesh\r\nEXPERIENCE\r\nBindisa AgritechWMay 2025 – July 2025\r\nBackend Developer InternRemote\r\n•Engineered backend services for a smart-agriculture platform integrating soil analysis, weather insights, andAI-driven recommendations.\r\n•Optimized modular API architecture, reducing average response latency by 40% and improving workflowefficiency by 20%.\r\nGlobal PathfindersWJune 2024 – July 2024\r\nWeb Developer InternRemote\r\n•Built and deployed the official Global PathFinders website using the MERN stack, increasing user engagementby 50%.\r\n•Managed deployment on a KVM2 VPS server, achieving 99.9% uptime and improving site load speed by 40%.\r\nPROJECTS\r\nSimulateX| Github| Java, JavaFX, JavaSwing                                                               Jan 2025 - May 2025\r\n•Developed an EDA (Electronic Design Automation) simulation tool for circuit design and analysis, replicatingcore features of industry tools like LTSpice.\r\n•Designed a modular, interactive GUI that improved usability and reduced circuit setup time by 40%, boostingproductivity for engineering students and researchers.\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Adobe GenSolve Hackathon 2024 – Ranked AIR 53 among 10,000+ participants nationwide,placing in top 5 percentile.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•GeekCamp 2023 – Ranked among the Top 3 performers in a multi-disciplinary development contest atIIITA.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•3 star at Codechef  (maximum rating of 1610) with a best global rank of 118\r\n•Mentored participants in SheHacks, MadWeb, and III 4.0, fostering technical growth and projectexecution skills.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, Next.js, Flask, TailwindCSS, MongoDB, MySQL,\r\nFirebase, GitHub, Postman\r\nRelevant Coursework:  Data Structures and Algorithms, Operating System, Database Management System,\r\nObject Oriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGoogle Developer Student Clubs                                                                                  Sept 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Conducted various hands-on web development workshop attended by 100+ students.Alumni Sangam Students’ Interaction Cell                                                                Aug 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Contributed to the organization of Silver Jubilee GAM 2024, GAM’23, GVAM’23 attracting 1000+ alumni.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [],
+      "answers": [],
+      "createdAt": "2025-09-28T05:20:41.516Z",
+      "status": "uploaded"
+    },
+    "75423b16-8109-4a1a-84e5-89c9f0a409e7": {
+      "id": "75423b16-8109-4a1a-84e5-89c9f0a409e7",
+      "candidate": {
+        "name": "Lavish Meena",
+        "email": "lavishmeena2764@gmail.com",
+        "phone": "+91-9352893936"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759038386/interview_resumes/1759038366539-Lavish_Meena.pdf",
+      "resumeText": "Lavish Meena\r\nÓ+91-9352893936Rlavishmeena2764@gmail.com°Lavish MeenaLavishmeena2764\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                          July 2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.91               Prayagraj, Uttar Pradesh\r\nEXPERIENCE\r\nBindisa AgritechWMay 2025 – July 2025\r\nBackend Developer InternRemote\r\n•Engineered backend services for a smart-agriculture platform integrating soil analysis, weather insights, andAI-driven recommendations.\r\n•Optimized modular API architecture, reducing average response latency by 40% and improving workflowefficiency by 20%.\r\nGlobal PathfindersWJune 2024 – July 2024\r\nWeb Developer InternRemote\r\n•Built and deployed the official Global PathFinders website using the MERN stack, increasing user engagementby 50%.\r\n•Managed deployment on a KVM2 VPS server, achieving 99.9% uptime and improving site load speed by 40%.\r\nPROJECTS\r\nSimulateX| Github| Java, JavaFX, JavaSwing                                                               Jan 2025 - May 2025\r\n•Developed an EDA (Electronic Design Automation) simulation tool for circuit design and analysis, replicatingcore features of industry tools like LTSpice.\r\n•Designed a modular, interactive GUI that improved usability and reduced circuit setup time by 40%, boostingproductivity for engineering students and researchers.\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Adobe GenSolve Hackathon 2024 – Ranked AIR 53 among 10,000+ participants nationwide,placing in top 5 percentile.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•GeekCamp 2023 – Ranked among the Top 3 performers in a multi-disciplinary development contest atIIITA.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•3 star at Codechef  (maximum rating of 1610) with a best global rank of 118\r\n•Mentored participants in SheHacks, MadWeb, and III 4.0, fostering technical growth and projectexecution skills.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, Next.js, Flask, TailwindCSS, MongoDB, MySQL,\r\nFirebase, GitHub, Postman\r\nRelevant Coursework:  Data Structures and Algorithms, Operating System, Database Management System,\r\nObject Oriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGoogle Developer Student Clubs                                                                                  Sept 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Conducted various hands-on web development workshop attended by 100+ students.Alumni Sangam Students’ Interaction Cell                                                                Aug 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Contributed to the organization of Silver Jubilee GAM 2024, GAM’23, GVAM’23 attracting 1000+ alumni.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [],
+      "answers": [],
+      "createdAt": "2025-09-28T05:46:31.210Z",
+      "status": "uploaded"
+    },
+    "c58dee87-3110-4a88-9b1e-c8d97fe35913": {
+      "id": "c58dee87-3110-4a88-9b1e-c8d97fe35913",
+      "candidate": {
+        "name": "Lavish Meena",
+        "email": "lavishmeena2764@gmail.com",
+        "phone": "+91-9352893936"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759038959/interview_resumes/1759038908861-Lavish_Meena.pdf",
+      "resumeText": "Lavish Meena\r\nÓ+91-9352893936Rlavishmeena2764@gmail.com°Lavish MeenaLavishmeena2764\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                          July 2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.91               Prayagraj, Uttar Pradesh\r\nEXPERIENCE\r\nBindisa AgritechWMay 2025 – July 2025\r\nBackend Developer InternRemote\r\n•Engineered backend services for a smart-agriculture platform integrating soil analysis, weather insights, andAI-driven recommendations.\r\n•Optimized modular API architecture, reducing average response latency by 40% and improving workflowefficiency by 20%.\r\nGlobal PathfindersWJune 2024 – July 2024\r\nWeb Developer InternRemote\r\n•Built and deployed the official Global PathFinders website using the MERN stack, increasing user engagementby 50%.\r\n•Managed deployment on a KVM2 VPS server, achieving 99.9% uptime and improving site load speed by 40%.\r\nPROJECTS\r\nSimulateX| Github| Java, JavaFX, JavaSwing                                                               Jan 2025 - May 2025\r\n•Developed an EDA (Electronic Design Automation) simulation tool for circuit design and analysis, replicatingcore features of industry tools like LTSpice.\r\n•Designed a modular, interactive GUI that improved usability and reduced circuit setup time by 40%, boostingproductivity for engineering students and researchers.\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Adobe GenSolve Hackathon 2024 – Ranked AIR 53 among 10,000+ participants nationwide,placing in top 5 percentile.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•GeekCamp 2023 – Ranked among the Top 3 performers in a multi-disciplinary development contest atIIITA.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•3 star at Codechef  (maximum rating of 1610) with a best global rank of 118\r\n•Mentored participants in SheHacks, MadWeb, and III 4.0, fostering technical growth and projectexecution skills.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, Next.js, Flask, TailwindCSS, MongoDB, MySQL,\r\nFirebase, GitHub, Postman\r\nRelevant Coursework:  Data Structures and Algorithms, Operating System, Database Management System,\r\nObject Oriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGoogle Developer Student Clubs                                                                                  Sept 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Conducted various hands-on web development workshop attended by 100+ students.Alumni Sangam Students’ Interaction Cell                                                                Aug 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Contributed to the organization of Silver Jubilee GAM 2024, GAM’23, GVAM’23 attracting 1000+ alumni.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [],
+      "answers": [],
+      "createdAt": "2025-09-28T05:56:03.288Z",
+      "status": "uploaded"
+    },
+    "d68039cf-fa3a-41e7-b400-69fe4b35c2b9": {
+      "id": "d68039cf-fa3a-41e7-b400-69fe4b35c2b9",
+      "candidate": {
+        "name": "Lavish Meena",
+        "email": "lavishmeena2764@gmail.com",
+        "phone": "+91-9352893936"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759039843/interview_resumes/1759039833238-Lavish_Meena.pdf",
+      "resumeText": "Lavish Meena\r\nÓ+91-9352893936Rlavishmeena2764@gmail.com°Lavish MeenaLavishmeena2764\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                          July 2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.91               Prayagraj, Uttar Pradesh\r\nEXPERIENCE\r\nBindisa AgritechWMay 2025 – July 2025\r\nBackend Developer InternRemote\r\n•Engineered backend services for a smart-agriculture platform integrating soil analysis, weather insights, andAI-driven recommendations.\r\n•Optimized modular API architecture, reducing average response latency by 40% and improving workflowefficiency by 20%.\r\nGlobal PathfindersWJune 2024 – July 2024\r\nWeb Developer InternRemote\r\n•Built and deployed the official Global PathFinders website using the MERN stack, increasing user engagementby 50%.\r\n•Managed deployment on a KVM2 VPS server, achieving 99.9% uptime and improving site load speed by 40%.\r\nPROJECTS\r\nSimulateX| Github| Java, JavaFX, JavaSwing                                                               Jan 2025 - May 2025\r\n•Developed an EDA (Electronic Design Automation) simulation tool for circuit design and analysis, replicatingcore features of industry tools like LTSpice.\r\n•Designed a modular, interactive GUI that improved usability and reduced circuit setup time by 40%, boostingproductivity for engineering students and researchers.\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Adobe GenSolve Hackathon 2024 – Ranked AIR 53 among 10,000+ participants nationwide,placing in top 5 percentile.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•GeekCamp 2023 – Ranked among the Top 3 performers in a multi-disciplinary development contest atIIITA.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•3 star at Codechef  (maximum rating of 1610) with a best global rank of 118\r\n•Mentored participants in SheHacks, MadWeb, and III 4.0, fostering technical growth and projectexecution skills.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, Next.js, Flask, TailwindCSS, MongoDB, MySQL,\r\nFirebase, GitHub, Postman\r\nRelevant Coursework:  Data Structures and Algorithms, Operating System, Database Management System,\r\nObject Oriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGoogle Developer Student Clubs                                                                                  Sept 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Conducted various hands-on web development workshop attended by 100+ students.Alumni Sangam Students’ Interaction Cell                                                                Aug 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Contributed to the organization of Silver Jubilee GAM 2024, GAM’23, GVAM’23 attracting 1000+ alumni.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [],
+      "answers": [],
+      "createdAt": "2025-09-28T06:10:48.597Z",
+      "status": "uploaded"
+    },
+    "7aa86bfd-042a-42fa-a550-d5ccb8aca118": {
+      "id": "7aa86bfd-042a-42fa-a550-d5ccb8aca118",
+      "candidate": {
+        "name": "Lavish Meena",
+        "email": "lavishmeena2764@gmail.com",
+        "phone": "+91-9352893936"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759055204/interview_resumes/1759055201066-Lavish_Meena.pdf",
+      "resumeText": "Lavish Meena\r\nÓ+91-9352893936Rlavishmeena2764@gmail.com°Lavish MeenaLavishmeena2764\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                          July 2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.91               Prayagraj, Uttar Pradesh\r\nEXPERIENCE\r\nBindisa AgritechWMay 2025 – July 2025\r\nBackend Developer InternRemote\r\n•Engineered backend services for a smart-agriculture platform integrating soil analysis, weather insights, andAI-driven recommendations.\r\n•Optimized modular API architecture, reducing average response latency by 40% and improving workflowefficiency by 20%.\r\nGlobal PathfindersWJune 2024 – July 2024\r\nWeb Developer InternRemote\r\n•Built and deployed the official Global PathFinders website using the MERN stack, increasing user engagementby 50%.\r\n•Managed deployment on a KVM2 VPS server, achieving 99.9% uptime and improving site load speed by 40%.\r\nPROJECTS\r\nSimulateX| Github| Java, JavaFX, JavaSwing                                                               Jan 2025 - May 2025\r\n•Developed an EDA (Electronic Design Automation) simulation tool for circuit design and analysis, replicatingcore features of industry tools like LTSpice.\r\n•Designed a modular, interactive GUI that improved usability and reduced circuit setup time by 40%, boostingproductivity for engineering students and researchers.\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Adobe GenSolve Hackathon 2024 – Ranked AIR 53 among 10,000+ participants nationwide,placing in top 5 percentile.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•GeekCamp 2023 – Ranked among the Top 3 performers in a multi-disciplinary development contest atIIITA.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•3 star at Codechef  (maximum rating of 1610) with a best global rank of 118\r\n•Mentored participants in SheHacks, MadWeb, and III 4.0, fostering technical growth and projectexecution skills.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, Next.js, Flask, TailwindCSS, MongoDB, MySQL,\r\nFirebase, GitHub, Postman\r\nRelevant Coursework:  Data Structures and Algorithms, Operating System, Database Management System,\r\nObject Oriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGoogle Developer Student Clubs                                                                                  Sept 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Conducted various hands-on web development workshop attended by 100+ students.Alumni Sangam Students’ Interaction Cell                                                                Aug 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Contributed to the organization of Silver Jubilee GAM 2024, GAM’23, GVAM’23 attracting 1000+ alumni.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [],
+      "answers": [],
+      "createdAt": "2025-09-28T10:26:48.167Z",
+      "status": "uploaded"
+    },
+    "eab51d8e-8509-4b4b-808e-3ef3e3aa17bb": {
+      "id": "eab51d8e-8509-4b4b-808e-3ef3e3aa17bb",
+      "candidate": {
+        "name": "Lavish Meena",
+        "email": "lavishmeena2764@gmail.com",
+        "phone": "+91-9352893936"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759056116/interview_resumes/1759056112400-Lavish_Meena.pdf",
+      "resumeText": "Lavish Meena\r\nÓ+91-9352893936Rlavishmeena2764@gmail.com°Lavish MeenaLavishmeena2764\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                          July 2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.91               Prayagraj, Uttar Pradesh\r\nEXPERIENCE\r\nBindisa AgritechWMay 2025 – July 2025\r\nBackend Developer InternRemote\r\n•Engineered backend services for a smart-agriculture platform integrating soil analysis, weather insights, andAI-driven recommendations.\r\n•Optimized modular API architecture, reducing average response latency by 40% and improving workflowefficiency by 20%.\r\nGlobal PathfindersWJune 2024 – July 2024\r\nWeb Developer InternRemote\r\n•Built and deployed the official Global PathFinders website using the MERN stack, increasing user engagementby 50%.\r\n•Managed deployment on a KVM2 VPS server, achieving 99.9% uptime and improving site load speed by 40%.\r\nPROJECTS\r\nSimulateX| Github| Java, JavaFX, JavaSwing                                                               Jan 2025 - May 2025\r\n•Developed an EDA (Electronic Design Automation) simulation tool for circuit design and analysis, replicatingcore features of industry tools like LTSpice.\r\n•Designed a modular, interactive GUI that improved usability and reduced circuit setup time by 40%, boostingproductivity for engineering students and researchers.\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Adobe GenSolve Hackathon 2024 – Ranked AIR 53 among 10,000+ participants nationwide,placing in top 5 percentile.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•GeekCamp 2023 – Ranked among the Top 3 performers in a multi-disciplinary development contest atIIITA.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•3 star at Codechef  (maximum rating of 1610) with a best global rank of 118\r\n•Mentored participants in SheHacks, MadWeb, and III 4.0, fostering technical growth and projectexecution skills.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, Next.js, Flask, TailwindCSS, MongoDB, MySQL,\r\nFirebase, GitHub, Postman\r\nRelevant Coursework:  Data Structures and Algorithms, Operating System, Database Management System,\r\nObject Oriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGoogle Developer Student Clubs                                                                                  Sept 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Conducted various hands-on web development workshop attended by 100+ students.Alumni Sangam Students’ Interaction Cell                                                                Aug 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Contributed to the organization of Silver Jubilee GAM 2024, GAM’23, GVAM’23 attracting 1000+ alumni.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [],
+      "answers": [],
+      "createdAt": "2025-09-28T10:42:00.809Z",
+      "status": "uploaded"
+    },
+    "8a7a0271-1267-4a83-aa70-89ba2791915c": {
+      "id": "8a7a0271-1267-4a83-aa70-89ba2791915c",
+      "candidate": {
+        "name": "Lavish Meena",
+        "email": "lavishmeena2764@gmail.com",
+        "phone": "+91-9352893936"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759056404/interview_resumes/1759056400337-Lavish_Meena.pdf",
+      "resumeText": "Lavish Meena\r\nÓ+91-9352893936Rlavishmeena2764@gmail.com°Lavish MeenaLavishmeena2764\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                          July 2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.91               Prayagraj, Uttar Pradesh\r\nEXPERIENCE\r\nBindisa AgritechWMay 2025 – July 2025\r\nBackend Developer InternRemote\r\n•Engineered backend services for a smart-agriculture platform integrating soil analysis, weather insights, andAI-driven recommendations.\r\n•Optimized modular API architecture, reducing average response latency by 40% and improving workflowefficiency by 20%.\r\nGlobal PathfindersWJune 2024 – July 2024\r\nWeb Developer InternRemote\r\n•Built and deployed the official Global PathFinders website using the MERN stack, increasing user engagementby 50%.\r\n•Managed deployment on a KVM2 VPS server, achieving 99.9% uptime and improving site load speed by 40%.\r\nPROJECTS\r\nSimulateX| Github| Java, JavaFX, JavaSwing                                                               Jan 2025 - May 2025\r\n•Developed an EDA (Electronic Design Automation) simulation tool for circuit design and analysis, replicatingcore features of industry tools like LTSpice.\r\n•Designed a modular, interactive GUI that improved usability and reduced circuit setup time by 40%, boostingproductivity for engineering students and researchers.\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Adobe GenSolve Hackathon 2024 – Ranked AIR 53 among 10,000+ participants nationwide,placing in top 5 percentile.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•GeekCamp 2023 – Ranked among the Top 3 performers in a multi-disciplinary development contest atIIITA.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•3 star at Codechef  (maximum rating of 1610) with a best global rank of 118\r\n•Mentored participants in SheHacks, MadWeb, and III 4.0, fostering technical growth and projectexecution skills.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, Next.js, Flask, TailwindCSS, MongoDB, MySQL,\r\nFirebase, GitHub, Postman\r\nRelevant Coursework:  Data Structures and Algorithms, Operating System, Database Management System,\r\nObject Oriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGoogle Developer Student Clubs                                                                                  Sept 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Conducted various hands-on web development workshop attended by 100+ students.Alumni Sangam Students’ Interaction Cell                                                                Aug 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Contributed to the organization of Silver Jubilee GAM 2024, GAM’23, GVAM’23 attracting 1000+ alumni.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [],
+      "answers": [],
+      "createdAt": "2025-09-28T10:46:53.147Z",
+      "status": "uploaded"
+    },
+    "8d892852-a6bd-473a-8687-86edfba8187f": {
+      "id": "8d892852-a6bd-473a-8687-86edfba8187f",
+      "candidate": {
+        "name": "Lavish Meena",
+        "email": "lavishmeena2764@gmail.com",
+        "phone": "+91-9352893936"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759056460/interview_resumes/1759056457630-Lavish_Meena.pdf",
+      "resumeText": "Lavish Meena\r\nÓ+91-9352893936Rlavishmeena2764@gmail.com°Lavish MeenaLavishmeena2764\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                          July 2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.91               Prayagraj, Uttar Pradesh\r\nEXPERIENCE\r\nBindisa AgritechWMay 2025 – July 2025\r\nBackend Developer InternRemote\r\n•Engineered backend services for a smart-agriculture platform integrating soil analysis, weather insights, andAI-driven recommendations.\r\n•Optimized modular API architecture, reducing average response latency by 40% and improving workflowefficiency by 20%.\r\nGlobal PathfindersWJune 2024 – July 2024\r\nWeb Developer InternRemote\r\n•Built and deployed the official Global PathFinders website using the MERN stack, increasing user engagementby 50%.\r\n•Managed deployment on a KVM2 VPS server, achieving 99.9% uptime and improving site load speed by 40%.\r\nPROJECTS\r\nSimulateX| Github| Java, JavaFX, JavaSwing                                                               Jan 2025 - May 2025\r\n•Developed an EDA (Electronic Design Automation) simulation tool for circuit design and analysis, replicatingcore features of industry tools like LTSpice.\r\n•Designed a modular, interactive GUI that improved usability and reduced circuit setup time by 40%, boostingproductivity for engineering students and researchers.\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Adobe GenSolve Hackathon 2024 – Ranked AIR 53 among 10,000+ participants nationwide,placing in top 5 percentile.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•GeekCamp 2023 – Ranked among the Top 3 performers in a multi-disciplinary development contest atIIITA.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•3 star at Codechef  (maximum rating of 1610) with a best global rank of 118\r\n•Mentored participants in SheHacks, MadWeb, and III 4.0, fostering technical growth and projectexecution skills.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, Next.js, Flask, TailwindCSS, MongoDB, MySQL,\r\nFirebase, GitHub, Postman\r\nRelevant Coursework:  Data Structures and Algorithms, Operating System, Database Management System,\r\nObject Oriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGoogle Developer Student Clubs                                                                                  Sept 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Conducted various hands-on web development workshop attended by 100+ students.Alumni Sangam Students’ Interaction Cell                                                                Aug 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Contributed to the organization of Silver Jubilee GAM 2024, GAM’23, GVAM’23 attracting 1000+ alumni.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [
+        {
+          "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+          "text": "In your Global Pathfinders project, what does MERN stand for?",
+          "difficulty": "easy",
+          "time_seconds": 20,
+          "maxScore": 10
+        },
+        {
+          "id": "b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+          "text": "For Bindisa Agritech, how did you optimize the modular API architecture to reduce response latency by 40%?",
+          "difficulty": "medium",
+          "time_seconds": 60,
+          "maxScore": 10
+        },
+        {
+          "id": "c3d4e5f6-a7b8-9012-3456-7890abcdef01",
+          "text": "In your EasyExit project, describe a potential performance bottleneck you might encounter with MongoDB for frequent gate-pass lookups, and how you would optimize the database schema or queries to address it.",
+          "difficulty": "hard",
+          "time_seconds": 120,
+          "maxScore": 10
+        },
+        {
+          "id": "d4e5f6a7-b8c9-0123-4567-890abcdef012",
+          "text": "What was the primary role of Firebase in your Medify.AI healthcare diagnostic platform?",
+          "difficulty": "easy",
+          "time_seconds": 20,
+          "maxScore": 10
+        },
+        {
+          "id": "e5f6a7b8-c9d0-1234-5678-90abcdef0123",
+          "text": "When deploying the Global Pathfinders website on a KVM2 VPS, how did you ensure 99.9% uptime and improve site load speed by 40%?",
+          "difficulty": "medium",
+          "time_seconds": 60,
+          "maxScore": 10
+        },
+        {
+          "id": "f6a7b8c9-d0e1-2345-6789-0abcdef01234",
+          "text": "For your SimulateX EDA tool, you used JavaFX and JavaSwing. Discuss the trade-offs between these two GUI frameworks for a complex application like a circuit simulator, and why you might choose one over the other.",
+          "difficulty": "hard",
+          "time_seconds": 120,
+          "maxScore": 10
+        }
+      ],
+      "answers": [
+        {
+          "questionId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+          "questionText": "In your Global Pathfinders project, what does MERN stand for?",
+          "answer": "fvgbh",
+          "score": 0,
+          "createdAt": "2025-09-28T10:48:03.452Z"
+        },
+        {
+          "questionId": "b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+          "questionText": "For Bindisa Agritech, how did you optimize the modular API architecture to reduce response latency by 40%?",
+          "answer": "bjhum",
+          "score": 0,
+          "createdAt": "2025-09-28T10:48:06.571Z"
+        },
+        {
+          "questionId": "c3d4e5f6-a7b8-9012-3456-7890abcdef01",
+          "questionText": "In your EasyExit project, describe a potential performance bottleneck you might encounter with MongoDB for frequent gate-pass lookups, and how you would optimize the database schema or queries to address it.",
+          "answer": " kjnjnjk k jk k ",
+          "score": 0,
+          "createdAt": "2025-09-28T10:48:10.276Z"
+        },
+        {
+          "questionId": "d4e5f6a7-b8c9-0123-4567-890abcdef012",
+          "questionText": "What was the primary role of Firebase in your Medify.AI healthcare diagnostic platform?",
+          "answer": "jkjk n m, l ",
+          "score": 0,
+          "createdAt": "2025-09-28T10:48:13.237Z"
+        },
+        {
+          "questionId": "e5f6a7b8-c9d0-1234-5678-90abcdef0123",
+          "questionText": "When deploying the Global Pathfinders website on a KVM2 VPS, how did you ensure 99.9% uptime and improve site load speed by 40%?",
+          "answer": "n jn n l m l lm",
+          "score": 0,
+          "createdAt": "2025-09-28T10:48:17.203Z"
+        },
+        {
+          "questionId": "f6a7b8c9-d0e1-2345-6789-0abcdef01234",
+          "questionText": "For your SimulateX EDA tool, you used JavaFX and JavaSwing. Discuss the trade-offs between these two GUI frameworks for a complex application like a circuit simulator, and why you might choose one over the other.",
+          "answer": " n nkn  m ",
+          "score": 0,
+          "createdAt": "2025-09-28T10:48:22.750Z"
+        }
+      ],
+      "createdAt": "2025-09-28T10:47:44.438Z",
+      "status": "completed",
+      "finalScore": 0,
+      "summary": "The candidate provided nonsensical, unreadable responses to all interview questions, failing to demonstrate any understanding of the technologies or projects listed on their resume. This indicates a complete lack of engagement or knowledge during the interview."
+    },
+    "5f626951-b155-4edf-91f8-486a128c9a82": {
+      "id": "5f626951-b155-4edf-91f8-486a128c9a82",
+      "candidate": {
+        "name": "Lavish Meena",
+        "email": "lavishmeena2764@gmail.com",
+        "phone": "+91-9352893936"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759056590/interview_resumes/1759056586653-Lavish_Meena.pdf",
+      "resumeText": "Lavish Meena\r\nÓ+91-9352893936Rlavishmeena2764@gmail.com°Lavish MeenaLavishmeena2764\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                          July 2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.91               Prayagraj, Uttar Pradesh\r\nEXPERIENCE\r\nBindisa AgritechWMay 2025 – July 2025\r\nBackend Developer InternRemote\r\n•Engineered backend services for a smart-agriculture platform integrating soil analysis, weather insights, andAI-driven recommendations.\r\n•Optimized modular API architecture, reducing average response latency by 40% and improving workflowefficiency by 20%.\r\nGlobal PathfindersWJune 2024 – July 2024\r\nWeb Developer InternRemote\r\n•Built and deployed the official Global PathFinders website using the MERN stack, increasing user engagementby 50%.\r\n•Managed deployment on a KVM2 VPS server, achieving 99.9% uptime and improving site load speed by 40%.\r\nPROJECTS\r\nSimulateX| Github| Java, JavaFX, JavaSwing                                                               Jan 2025 - May 2025\r\n•Developed an EDA (Electronic Design Automation) simulation tool for circuit design and analysis, replicatingcore features of industry tools like LTSpice.\r\n•Designed a modular, interactive GUI that improved usability and reduced circuit setup time by 40%, boostingproductivity for engineering students and researchers.\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Adobe GenSolve Hackathon 2024 – Ranked AIR 53 among 10,000+ participants nationwide,placing in top 5 percentile.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•GeekCamp 2023 – Ranked among the Top 3 performers in a multi-disciplinary development contest atIIITA.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•3 star at Codechef  (maximum rating of 1610) with a best global rank of 118\r\n•Mentored participants in SheHacks, MadWeb, and III 4.0, fostering technical growth and projectexecution skills.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, Next.js, Flask, TailwindCSS, MongoDB, MySQL,\r\nFirebase, GitHub, Postman\r\nRelevant Coursework:  Data Structures and Algorithms, Operating System, Database Management System,\r\nObject Oriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGoogle Developer Student Clubs                                                                                  Sept 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Conducted various hands-on web development workshop attended by 100+ students.Alumni Sangam Students’ Interaction Cell                                                                Aug 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Contributed to the organization of Silver Jubilee GAM 2024, GAM’23, GVAM’23 attracting 1000+ alumni.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [],
+      "answers": [],
+      "createdAt": "2025-09-28T10:49:54.684Z",
+      "status": "uploaded"
+    },
+    "36776da3-714d-4758-8301-310a640b41ac": {
+      "id": "36776da3-714d-4758-8301-310a640b41ac",
+      "candidate": {
+        "name": "Lavish Meena",
+        "email": "lavishmeena2764@gmail.com",
+        "phone": "+91-9352893936"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759056824/interview_resumes/1759056821100-Lavish_Meena.pdf",
+      "resumeText": "Lavish Meena\r\nÓ+91-9352893936Rlavishmeena2764@gmail.com°Lavish MeenaLavishmeena2764\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                          July 2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.91               Prayagraj, Uttar Pradesh\r\nEXPERIENCE\r\nBindisa AgritechWMay 2025 – July 2025\r\nBackend Developer InternRemote\r\n•Engineered backend services for a smart-agriculture platform integrating soil analysis, weather insights, andAI-driven recommendations.\r\n•Optimized modular API architecture, reducing average response latency by 40% and improving workflowefficiency by 20%.\r\nGlobal PathfindersWJune 2024 – July 2024\r\nWeb Developer InternRemote\r\n•Built and deployed the official Global PathFinders website using the MERN stack, increasing user engagementby 50%.\r\n•Managed deployment on a KVM2 VPS server, achieving 99.9% uptime and improving site load speed by 40%.\r\nPROJECTS\r\nSimulateX| Github| Java, JavaFX, JavaSwing                                                               Jan 2025 - May 2025\r\n•Developed an EDA (Electronic Design Automation) simulation tool for circuit design and analysis, replicatingcore features of industry tools like LTSpice.\r\n•Designed a modular, interactive GUI that improved usability and reduced circuit setup time by 40%, boostingproductivity for engineering students and researchers.\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Adobe GenSolve Hackathon 2024 – Ranked AIR 53 among 10,000+ participants nationwide,placing in top 5 percentile.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•GeekCamp 2023 – Ranked among the Top 3 performers in a multi-disciplinary development contest atIIITA.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•3 star at Codechef  (maximum rating of 1610) with a best global rank of 118\r\n•Mentored participants in SheHacks, MadWeb, and III 4.0, fostering technical growth and projectexecution skills.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, Next.js, Flask, TailwindCSS, MongoDB, MySQL,\r\nFirebase, GitHub, Postman\r\nRelevant Coursework:  Data Structures and Algorithms, Operating System, Database Management System,\r\nObject Oriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGoogle Developer Student Clubs                                                                                  Sept 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Conducted various hands-on web development workshop attended by 100+ students.Alumni Sangam Students’ Interaction Cell                                                                Aug 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Contributed to the organization of Silver Jubilee GAM 2024, GAM’23, GVAM’23 attracting 1000+ alumni.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [],
+      "answers": [],
+      "createdAt": "2025-09-28T10:53:49.509Z",
+      "status": "uploaded"
+    },
+    "eea2f28f-6f0d-45a1-91ba-c9981eb2968a": {
+      "id": "eea2f28f-6f0d-45a1-91ba-c9981eb2968a",
+      "candidate": {
+        "name": "Lavish Meena",
+        "email": "lavishmeena2764@gmail.com",
+        "phone": "+91-9352893936"
+      },
+      "resumeUrl": "https://res.cloudinary.com/lavish-meena/image/upload/v1759057015/interview_resumes/1759057011850-Lavish_Meena.pdf",
+      "resumeText": "Lavish Meena\r\nÓ+91-9352893936Rlavishmeena2764@gmail.com°Lavish MeenaLavishmeena2764\r\nEDUCATION\r\nIndian Institute of Information Technology, Allahabad                                          July 2022 – Present\r\nB.Tech in Electronics and Communication Engineering - CGPA: 7.91               Prayagraj, Uttar Pradesh\r\nEXPERIENCE\r\nBindisa AgritechWMay 2025 – July 2025\r\nBackend Developer InternRemote\r\n•Engineered backend services for a smart-agriculture platform integrating soil analysis, weather insights, andAI-driven recommendations.\r\n•Optimized modular API architecture, reducing average response latency by 40% and improving workflowefficiency by 20%.\r\nGlobal PathfindersWJune 2024 – July 2024\r\nWeb Developer InternRemote\r\n•Built and deployed the official Global PathFinders website using the MERN stack, increasing user engagementby 50%.\r\n•Managed deployment on a KVM2 VPS server, achieving 99.9% uptime and improving site load speed by 40%.\r\nPROJECTS\r\nSimulateX| Github| Java, JavaFX, JavaSwing                                                               Jan 2025 - May 2025\r\n•Developed an EDA (Electronic Design Automation) simulation tool for circuit design and analysis, replicatingcore features of industry tools like LTSpice.\r\n•Designed a modular, interactive GUI that improved usability and reduced circuit setup time by 40%, boostingproductivity for engineering students and researchers.\r\nEasyExitW| Github| SpringBoot, MongoDB, ReactJS                                                                    May 2024\r\n•Developed a full-stack system for digitized gate-pass management, enabling instant approval and OTP-basedverification.\r\n•Eliminated paper-based processes, reducing processing time by ¿80% and saving 100% of manual paperwork.\r\nMedify.AI| Github| ReactJS, Firebase, Flask, NumPy, Pandas                                                        Feb 2024\r\n•Built a healthcare diagnostic platform leveraging ML models for disease prediction.\r\n•Implemented a seamless UI for patient data input and doctor recommendations, enabling smooth interactionbetween patients and doctors.\r\nACHIEVEMENTS\r\n•Adobe GenSolve Hackathon 2024 – Ranked AIR 53 among 10,000+ participants nationwide,placing in top 5 percentile.\r\n•Flipkart GRiD 7.0 (2025) – Advanced to the semi-finals in one of India’s largest tech competitions,competing against 160,000+ participants.\r\n•GeekCamp 2023 – Ranked among the Top 3 performers in a multi-disciplinary development contest atIIITA.\r\n•Specialist at Codeforces (maximum rating of 1427) with a best global rank of 691\r\n•3 star at Codechef  (maximum rating of 1610) with a best global rank of 118\r\n•Mentored participants in SheHacks, MadWeb, and III 4.0, fostering technical growth and projectexecution skills.\r\nSKILLS\r\nLanguages: Go, Java, C, C++, Python, JavaScript, SQL, HTML, CSS\r\nTechnologies:  Spring Boot, NodeJS, ExpressJS, ReactJS, Next.js, Flask, TailwindCSS, MongoDB, MySQL,\r\nFirebase, GitHub, Postman\r\nRelevant Coursework:  Data Structures and Algorithms, Operating System, Database Management System,\r\nObject Oriented Methodologies, Computer Networks\r\nLEADERSHIP\r\nGoogle Developer Student Clubs                                                                                  Sept 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Conducted various hands-on web development workshop attended by 100+ students.Alumni Sangam Students’ Interaction Cell                                                                Aug 2024 – Present\r\nWeb Development CoordinatorIIIT Allahabad\r\n•Contributed to the organization of Silver Jubilee GAM 2024, GAM’23, GVAM’23 attracting 1000+ alumni.\r\n----------------Page (0) Break----------------\r\n",
+      "questions": [],
+      "answers": [],
+      "createdAt": "2025-09-28T10:56:58.825Z",
+      "status": "uploaded"
+    }
+  }
+}
