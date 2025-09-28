@@ -45,7 +45,8 @@ async function safeFetch<T>(
   }
 }
 
-const BASE = "https://swipe-ai-interview.vercel.app";
+const BASE = '';
+
 async function postForm(path: string, form: FormData) {
   const res = await fetch(`${BASE}${path}`, { method: 'POST', body: form });
   if (!res.ok) throw new Error(await res.text());
