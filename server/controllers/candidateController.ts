@@ -3,7 +3,6 @@ import { storage } from "../utils/storage";
 
 export const listCandidatesController = async (_req: Request, res: Response) => {
   const all = await storage.listSessions();
-  console.log(all);
   const summary = all.map((s) => ({
     id: s.id,
     name: s.candidate?.name || "Unknown",

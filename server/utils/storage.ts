@@ -8,14 +8,14 @@ const redis = new Redis({
 
 export const storage = {
   async saveSession(id: string, session: Session): Promise<void> {
-    await redis.set(`session:${id}`, JSON.stringify(session));
+    await redis.set(`session:${id}`,session);
   },
   async getSession(id: string): Promise<Session | null> {
-    const data = await redis.get<string>(`session:${id}`);
+    const data = await redis.get<Session>(`session:${id}`);
     if (!data) {
       return null;
     }
-    return JSON.parse(data) as Session;
+    return data;
   },
 
   async listSessions(): Promise<Session[]> {

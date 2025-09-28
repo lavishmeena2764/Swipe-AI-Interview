@@ -39,7 +39,7 @@ export const parseResumeController = async (req: Request, res: Response) => {
       status: "uploaded",
     };
 
-    storage.saveSession(sessionId, session);
+    await storage.saveSession(sessionId, session);
 
     return res.json({ sessionId, candidate: extracted, resumeUrl: uploadResult.secure_url });
   } catch (err: any) {
