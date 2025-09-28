@@ -1,8 +1,9 @@
 import { Request, Response } from "express";
 import { storage } from "../utils/storage";
 
-export const listCandidatesController = (_req: Request, res: Response) => {
-  const all = storage.listSessions();
+export const listCandidatesController = async (_req: Request, res: Response) => {
+  const all = await storage.listSessions();
+  console.log(all);
   const summary = all.map((s) => ({
     id: s.id,
     name: s.candidate?.name || "Unknown",
@@ -22,9 +23,9 @@ export const listCandidatesController = (_req: Request, res: Response) => {
   res.json(summary);
 };
 
-export const getCandidateController = (req: Request, res: Response) => {
+export const getCandidateController = async (req: Request, res: Response) => {
   const id = req.params.id;
-  const s = storage.getSession(id);
+  const s = await storage.getSession(id);
   if (!s) return res.status(404).json({ error: "not found" });
   res.json(s);
 };
