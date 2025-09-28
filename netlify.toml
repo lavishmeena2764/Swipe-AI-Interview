@@ -1,28 +1,12 @@
-# File: netlify.toml
-
 [build]
-  # This command ONLY builds the React/Vite frontend.
   command = "npm run build:client"
-
-  # The directory where the serverless function handler is located.
   functions = "netlify/functions"
-
-  # The directory that contains the built frontend assets.
   publish = "dist/spa" # Use "dist" instead of "dist/spa" if that's Vite's default output
 
 [functions]
-  # This helps with bundling Node.js dependencies for your function.
-  external_node_modules = ["express"]
-  node_bundler = "esbuild"
 
-# This is the magic rule that connects your frontend to your backend.
 [[redirects]]
-  # Catches all requests from your frontend to /api/...
   from = "/api/*"
-
-  # Forwards them to your 'api' serverless function.
   to = "/.netlify/functions/api/:splat"
-
-  # Ensures it works correctly.
   status = 200
   force = true
