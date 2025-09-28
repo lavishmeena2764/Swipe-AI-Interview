@@ -39,7 +39,7 @@ export type InterviewState = {
 
 const initialInterview: InterviewState = {
   sessionId: null,
-  candidate: {},
+  candidate: {name:"", email:"", phone:""},
   questions: [],
   current: 0,
   messages: [],

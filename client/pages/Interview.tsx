@@ -7,6 +7,7 @@ import { Card } from "@/components/ui/card";
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
@@ -26,19 +27,21 @@ function difficultySeconds(d: Difficulty) {
 
 export default function InterviewPage() {
   const dispatch = useDispatch();
+  const interviewState = useSelector((s: RootState) => s.interview);
   const {
-    candidate,
-    messages,
-    questions,
-    current,
-    status,
-    timeRemaining,
-    totalAsked,
-    sessionId,
-    finalScore,
-    summary,
-    evaluationError,
-  } = useSelector((s: RootState) => s.interview);
+      messages,
+      questions,
+      current,
+      status,
+      timeRemaining,
+      totalAsked,
+      sessionId,
+      finalScore,
+      summary,
+      evaluationError,
+  } = interviewState;
+
+  const candidate = interviewState.candidate || {};
   const navigate = useNavigate();
   const [answer, setAnswer] = useState("");
   const [uploadOpen, setUploadOpen] = useState(true);
