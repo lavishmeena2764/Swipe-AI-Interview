@@ -81,17 +81,21 @@ export default function InterviewPage() {
   const canStart = Boolean(candidate.name && candidate.email);
 
   async function handleResume(file: File) {
+    console.log("File selected:", file);
     if (!file) return;
     dispatch(interviewActions.reset());
+    console.log("File type:", file.type);
     if (!/\.(pdf|docx?)$/i.test(file.name)) {
       alert("Invalid file type. Upload PDF or DOC/DOCX.");
       return;
     }
     try {
       setLoadingStatus("parsing");
+      console.log("Uploading and parsing resume...");
       const sessionData = await Api.parseResume(file);
+      console.log("Resume parsed, session created:", sessionData);
       dispatch(interviewActions.setSession(sessionData));
-      
+      console.log("Resume parsed, session created:", sessionData);
       setLoadingStatus("generating");
       const qs = await Api.generateQuestions(sessionData.sessionId);
       dispatch(interviewActions.loadQuestions(qs.questions));
