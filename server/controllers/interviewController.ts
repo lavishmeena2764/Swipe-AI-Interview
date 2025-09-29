@@ -29,9 +29,7 @@ export const updateCandidateController = async (req: Request, res: Response) => 
 
 export const generateQuestionsController = async (req: Request, res: Response) => {
   try {
-    console.log(req.body);
     const { sessionId, n = 6 } = req.body;
-    console.log(sessionId, n);
     if (!sessionId) return res.status(400).json({ error: "sessionId required" });
     const session = await storage.getSession(sessionId);
     if (!session) return res.status(404).json({ error: "session not found" });

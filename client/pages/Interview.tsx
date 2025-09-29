@@ -147,18 +147,34 @@ export default function InterviewPage() {
   }, [uploadOpen, status, sessionId, finalScore, evaluationError]);
 
   useEffect(() => {
-    if (status === "in_progress" && timeRemaining === 0 && currentQuestion) {
-      dispatch(
-        interviewActions.submitAnswer({
+    const autoSubmitAnswer = async () => {
+      if (!currentQuestion) return;
+
+      try {
+        await Api.saveAnswer({
+          sessionId,
           questionId: currentQuestion.id,
           answer: answer || "",
-        })
-      );
-      
-      setAnswer("");
-      dispatch(interviewActions.nextQuestion());
+        });
+
+        dispatch(
+          interviewActions.submitAnswer({
+            questionId: currentQuestion.id,
+            answer: answer || "",
+          })
+        );
+        setAnswer("");
+        dispatch(interviewActions.nextQuestion());
+      } catch (error) {
+        console.error("Failed to auto-save answer:", error);
+        alert("There was an issue auto-saving your answer. Please try again.");
+      }
+    };
+
+    if (status === "in_progress" && timeRemaining === 0 && currentQuestion !== null) {
+      autoSubmitAnswer();
     }
-  }, [status, timeRemaining, currentQuestion, answer, dispatch]);
+  }, [status, timeRemaining, currentQuestion, answer, dispatch, sessionId]);
 
   useEffect(() => {
     if (!uploadOpen && status === "collecting" && questions.length > 0) {
