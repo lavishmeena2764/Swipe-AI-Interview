@@ -9,7 +9,7 @@ import { demoRouter } from "./routes/demo";
 export function createServer() {
   const app = express();
 
-  app.use(cors({origin: "*"}));
+  app.use(cors({origin: "https://swipe-ai-interview.netlify.app"}));
   app.use(express.json({ limit: "5mb" }));
   app.use(express.urlencoded({ extended: true }));
 
