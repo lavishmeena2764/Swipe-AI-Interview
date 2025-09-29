@@ -81,21 +81,16 @@ export default function InterviewPage() {
   const canStart = Boolean(candidate.name && candidate.email);
 
   async function handleResume(file: File) {
-    console.log("File selected:", file);
     if (!file) return;
     dispatch(interviewActions.reset());
-    console.log("File type:", file.type);
     if (!/\.(pdf|docx?)$/i.test(file.name)) {
       alert("Invalid file type. Upload PDF or DOC/DOCX.");
       return;
     }
     try {
       setLoadingStatus("parsing");
-      console.log("Uploading and parsing resume...");
       const sessionData = await Api.parseResume(file);
-      console.log("Resume parsed, session created:", sessionData);
       dispatch(interviewActions.setSession(sessionData));
-      console.log("Resume parsed, session created:", sessionData);
       setLoadingStatus("generating");
       const qs = await Api.generateQuestions(sessionData.sessionId);
       dispatch(interviewActions.loadQuestions(qs.questions));
@@ -406,7 +401,7 @@ export default function InterviewPage() {
               }
             />
           </div>
-          <div className="mt-4 flex items-center justify-between min-h-[40px]">
+          <div className="mt-4 flex flex-col md:flex-row gap-4 items-center justify-between min-h-[40px]">
             {loadingStatus === "parsing" && <p className="text-sm text-muted-foreground animate-pulse">Parsing your resume...</p>}
             {loadingStatus === "generating" && <p className="text-sm text-muted-foreground animate-pulse">Generating your interview questions...</p>}
             
