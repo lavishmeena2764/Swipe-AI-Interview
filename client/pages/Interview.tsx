@@ -98,9 +98,13 @@ export default function InterviewPage() {
       setLoadingStatus("done");
     } catch (error) {
       console.error("Failed to process resume or generate questions:", error);
-      alert("There was an error processing your resume. Please try again.");
+      if (error instanceof Error && error.message.includes("not appear to be a professional resume")) {
+        alert("Upload failed: The file does not appear to be a valid resume. Please try again.");
+      } else {
+        alert("An unexpected error occurred while processing your resume. Please try again.");
+      }
       setLoadingStatus("idle"); 
-    }
+      dispatch(interviewActions.reset());}
   }
 
   async function onSubmitAnswer() {
@@ -397,6 +401,7 @@ export default function InterviewPage() {
                   interviewActions.setCandidate({ name: e.target.value }),
                 )
               }
+              required 
             />
             <Input
               placeholder="Email"
@@ -406,6 +411,7 @@ export default function InterviewPage() {
                   interviewActions.setCandidate({ email: e.target.value }),
                 )
               }
+              required 
             />
             <Input
               placeholder="Phone"
@@ -415,6 +421,7 @@ export default function InterviewPage() {
                   interviewActions.setCandidate({ phone: e.target.value }),
                 )
               }
+              required 
             />
           </div>
           <div className="mt-4 flex flex-col md:flex-row gap-4 items-center justify-between min-h-[40px]">

@@ -28,9 +28,9 @@ export const updateCandidateController = async (req: Request, res: Response) => 
 };
 
 export const generateQuestionsController = async (req: Request, res: Response) => {
+  const { sessionId, n = 6 } = req.body;
+  if (!sessionId) return res.status(400).json({ error: "sessionId required" });
   try {
-    const { sessionId, n = 6 } = req.body;
-    if (!sessionId) return res.status(400).json({ error: "sessionId required" });
     const session = await storage.getSession(sessionId);
     if (!session) return res.status(404).json({ error: "session not found" });
     const questions = await interviewService.generateQuestions(session, n);
@@ -42,6 +42,10 @@ export const generateQuestionsController = async (req: Request, res: Response) =
     return res.json({ sessionId, questions });
   } catch (err: any) {
     console.error("generateQuestionsController:", err);
+    if (err.message && err.message.includes("not appear to be a professional resume")) {
+      console.log(`Invalid resume detected for session ${sessionId}. Deleting...`);
+      await storage.deleteSession(sessionId);
+    }
     return res.status(500).json({ error: err?.message || "Failed to generate questions" });
   }
 };
